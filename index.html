@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>personal portfolio website</title>
+    <script src="https://kit.fontawesome.com/4ccf30136d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="images/mslogo.jpg" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="header">
+        <div class="container">
+            <p>java Developer/full stack Developer</p>
+            <h1>Hay ! I am <span>Mahesh</span> ,<br> I am Developer .</h1>
+            <div class="cv">
+               <a href="maheshresume.pdf" target="_blank"><button>Download CV</button></a>
+            </div>
+
+            
+        </div>
+        <div class="main-logo">
+            <img src="images/devpic.png" alt="logo">
+        </div>
+    </div>
+
+    <!-- -----------about--------- -->
+
+    <div id="about">
+        <div class="contain">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user-img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Provident expedita saepe nisi voluptas
+                        impedit placeat sed, possimus minima aliquid dolor. Quod.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Core Java</span><br>DSA In Java</li>
+                            <li><span>Web Development</span><br>Html , CSS , javascript</li>
+                            <li><span>Database</span><br>Sql , mongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>Fresher</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Complated DSA From Apna Collage</li>
+                            <li><span>2022</span><br>BBA(CA) form Sarhad collage , Pune</li>
+                            <li><span>2018</span><br>12TH From Shri Chatrapati Shivaji Vidalaya & Jr.Collage Bhor </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------- services--------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, eos nulla?</p>
+                    <a href="#">Lern more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, eos nulla?</p>
+                    <a href="#">Lern more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>DSA In Java</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, eos nulla?</p>
+                    <a href="#">Lern more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------portfolio ---------- -->
+
+    <div id="portfolio">
+        <div class="coantainer">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p> This website are showing . all information about a Person . and connect with anther people</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-5.jpg">
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p> This website are showing . all information about a Person . and connect with anther people</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h3>shopping website</h3>
+                        <p> This website are showing . all information about a Person . and connect with anther people</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+
+    <!-- ----------Contact-------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>maheshsuryvanshi12@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9970777609</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"required></textarea>
+                    <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ mahesh suryvanshi</p>
+        </div>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbypG_InHHlE6757kCw_4_d3pcyyuliI15jsUxsBYV-4SjosBIS9fHd4dbtD3sqJz9njYQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
